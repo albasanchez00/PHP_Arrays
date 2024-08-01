@@ -1,0 +1,36 @@
+TEORIA PHP
+Cadenas
+Cadena o String -> Es una variable, constante o literal, formada por caracteres.
+	-Entrecomillado Doble -> Permite la inclusión de variable y sentencias de escape para caracteres especiales
+	-Entrecomillado Simple -> Solo permite incluir caracteres especiales la propia comilla simple y la barra invertida ('' o /).
+
+
+Heredoc ->  Identificador sin comillas o entre comillas dobles
+
+
+Unidad 2
+2.5.Arrays
+2.5.3. Funciones de Arrays
+	- unset() -> Elimina un elemento del array o el array entero
+	- var_dump() -> Muestra el contenido de un array, incluyend, claves, tamaño,valores y tipos.
+	- print_r() -> Muestra el contenido de un array en formato cadena solo con las claves y los valores, sin especificar tipo ni tamaño.
+	- array_values() -> Permite reindexar las posiciones de un array para eliminar huecos producidos por unset().
+	- array_diff() -> Compara un array con otro u otros y devuelve un array con los valores del primero que no aparecen en el resto.
+	- array_fill() -> Rellena un array con un valor.
+	- array_key_exist() -> Verifica si una clave existe en el array.
+	- array_search() -> Verifica si un valor existe en el array.
+	- count() -> Cuenta las posiciones de un array.
+	- sort() -> Ordena un array en función de sus datos (devuelve true si se ordena sin problemas)
+	- ksort() -> Ordena un array en función del valor de sus claves ordenador de menor a mayor (< a >).
+	- krsort() -> Ordena un array en función del valor de sus claves ordenador de mayor a menor (> a <).
+	- asort() -> Ordena un array manteniendo la asociación de los valores ordenados con sus claves originales de menor a mayor (> a <).
+	- arsort() -> Ordena un array manteniendo la asociación de los valores ordenados con sus claves originales de mayor  a menor(< a >).
+	- array_slice() -> Devuelve un array nuevo con una parte seleccionada de otro array.
+
+
+2.5.4. Arrays Multidimensionales.
+Los arrays multidimensionales se crean simplemente especificando que el valor de la posición concreta de un array es otro array.
+
+Para recorrer una matriz con índices numéricos correlativos, necesitaremos for o foreach anidados, uno para las filas y otro para las columnas.
+
+Lo mismo haríamos si las claves fueran alfanuméricas, salvo que las filas ya no estarían numeradas, sino que tendrían su propia clave.
